@@ -1,0 +1,215 @@
+ *{
+    margin:0;
+    padding: 0;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .pt-10 {
+    padding-top: 10px;
+  }
+  .ml-15 {
+    margin-left: 15px;
+  }
+  .payment-header h2{
+    font-size: 1.5rem;
+  }
+  .hr-pay {
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+  }
+  .hr-head {
+    background: grey;
+    height: 1px;
+    margin-top: 16px;
+    width: 27px;
+
+  }
+  .check-bor {
+    border-radius: 50%;
+    background: #7FC4B7;
+    color: #fff;
+    padding: 2px;
+  }
+  .marcio-i i{
+    background: #FE9100;
+    border-radius: 50%;
+    color: #fff;
+    padding: 2px;
+  }
+  .fa-sort-down{
+    padding: 1px 4px 4px 4px;
+    background: #FE9100;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .plus-extra {
+    background: grey;
+    border-radius: 50%;
+    color: #fff;
+    padding: 2px;
+  }
+  .payment-table-sec-header{
+    border: 1px solid gray;
+    margin: 15px 0 7px 0;
+    padding: 10px;
+  }
+  .rowflex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rowflex p {
+    font-size: .9rem;
+  }
+  .date-background {
+    background: grey;
+    padding: 2px 4px;
+    border-radius: 8px;
+  }
+  
+  .main-table {
+    border: 1px solid #343a40;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    
+}
+
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid transparent !important;
+    font-size: 13px;
+}
+.table-total {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-item {
+    border-top: 1px solid #343a40;
+    border-left: 1px solid #343a40;
+    border-right: 1px solid #343a40;
+    border-bottom: 0px solid #343a40;
+    margin-top: 9px;
+    padding: 10px 40px;
+}
+
+.table-button {
+  
+}
+.table-button-item button {
+    padding: 5px 26px;
+    border-radius: 20px;
+    background: grey;
+    margin-left: 25px;
+    font-weight: 900;
+    border: 0 !important;
+    text-transform: uppercase;
+}
+.ml-15 .fa-times {
+  padding: 5px 5px 4px 4px;
+    border-radius: 50%;
+    color: #fff;
+    background: grey;
+}
+
+/*Advertise*/
+.advertise {
+  padding-top: 35px;
+}
+.ad-menu {
+  padding-top: 9px;
+}
+.ad-menu ul li {
+  display: inline-block;
+  padding: 0 7px 0 3px;
+  border-right: 1px solid;
+  line-height: 14px;
+}
+.ad-menu ul li:last-child {
+  
+  border-right: 0;
+}
+.ad-title h6 {
+    color: #fff;
+    background: #000;
+    font-size: .8rem;
+    padding: 9px 0px;
+}
+.ad-slogan h1 {
+  color: red;
+}
+
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+  .rowflex p, .table-button-item button {
+    font-size: .6rem;
+  }
+  .payment-header h2 {
+    font-size: 1rem;
+}
+.new-x h1{
+  font-size: 1.5rem;
+  padding: 6px;
+}
+.hr-head {
+    background: grey;
+    height: 1px;
+    margin-top: 11px;
+    width: 17px;
+}
+.table td, .table th {
+    padding: .3rem;
+    font-size: 12px;
+}
+.table-button-item button {
+    padding: 5px 21px;
+    margin-left: 0;
+}
+.mob-p .pl-2 {
+  padding-left: .1rem !important;
+}
+.ml-15 {
+  margin-left: 2px;
+}
+.ml-15 .fa-times {
+    padding: 4px 4px 4px 5px;
+}
+.total-item {
+    padding: 10px 20px;
+}
+.total-item ul li {
+  font-size: .8rem;
+}
+.ad-slogan h1 {
+  font-size: 2rem;
+}
+.ad-menu ul {
+  padding-left: 0px;
+}
+.ad-menu ul li {
+        padding: 0 4px 0 0px;
+}
+.ad-menu ul li a{
+  font-size: .8rem;
+}
+
+.advertise-header {
+  padding-top: 10px;
+}
+.advertise-header img{
+  padding-top: 10px;
+}
+
+}
