@@ -27,7 +27,7 @@
     margin-bottom: 0.4rem;
   }
   .hr-head {
-    background: grey;
+    background: #8C378C;
     height: 1px;
     margin-top: 16px;
     width: 27px;
@@ -51,14 +51,8 @@
     border-radius: 50%;
     color: #fff;
   }
-  .plus-extra {
-    background: grey;
-    border-radius: 50%;
-    color: #fff;
-    padding: 2px;
-  }
-  .payment-table-sec-header{
-    border: 1px solid gray;
+    .payment-table-sec-header{
+    border: 1px solid #8C378C;
     margin: 15px 0 7px 0;
     padding: 10px;
   }
@@ -71,12 +65,13 @@
   }
   .date-background {
     background: grey;
-    padding: 2px 4px;
+    padding: 0px 6px;
     border-radius: 8px;
+    color: #fff;
   }
   
   .main-table {
-    border: 1px solid #343a40;
+    border: 1px solid #8C378C;
   }
   .table {
     width: 100%;
@@ -84,7 +79,10 @@
     color: #212529;
     
 }
-
+.thead-hulk {
+  background: #8C378C;
+  color: #fff;
+}
 .table td, .table th {
     padding: .75rem;
     vertical-align: top;
@@ -110,7 +108,8 @@
 .table-button-item button {
     padding: 5px 26px;
     border-radius: 20px;
-    background: grey;
+    background: #8C378C;
+    color: #fff;
     margin-left: 25px;
     font-weight: 900;
     border: 0 !important;
@@ -122,6 +121,12 @@
     color: #fff;
     background: grey;
 }
+.plus-extra {
+    background: grey;
+    border-radius: 50%;
+    color: #fff;
+    padding: 2px;
+  }
 
 /*Advertise*/
 .advertise {
@@ -164,11 +169,12 @@
   padding: 6px;
 }
 .hr-head {
-    background: grey;
+    background: #8C378C;
     height: 1px;
     margin-top: 11px;
     width: 17px;
 }
+
 .table td, .table th {
     padding: .3rem;
     font-size: 12px;
@@ -181,7 +187,7 @@
   padding-left: .1rem !important;
 }
 .ml-15 {
-  margin-left: 2px;
+  margin-left: -3px;
 }
 .ml-15 .fa-times {
     padding: 4px 4px 4px 5px;
