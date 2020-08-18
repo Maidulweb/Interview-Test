@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html  lang="">
 
 <head>
   <meta charset="utf-8">
@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="css/all.min.css">
 <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 
@@ -105,67 +106,74 @@
                
                  <p >Website Cashback</p>
                  <p><strong> &horbar;  Select  &horbar;
-                 </strong><span class="pl-2"><i class="fas fa-sort-down"></i></span></p>
-              </div>
+</strong><span class="pl-2"><i class="fas fa-sort-down"></i></span></p>
+               
+             </div>
            </div>
          </div>
-
-                
-    <div class="table-style">
+         <!-- End Payment Table Second Header -->
+         <!-- #### Main Table #### -->
+        <div class="main-table">
+          <div class="table-responsive">
           <table class="table">
-                  
+            <thead class="thead-hulk">
+              <tr>
+                <th scope="col">Image</th>
+                <th scope="col">Product Name</th>
+                <th scope="col" style="width: 10%">Ordered Quantity</th>
+                <th scope="col">Price*</th>
+                <th scope="col">Line Total</th>
+                <th scope="col" style="width: 16%">Website Cash Back %</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="text-center" scope="row"><img src="img/1.png"></th>
+                <td>Lorem Ipsum Goo<span class="pl-2"><i class="fas fa-check check-bor"></i></span></td>
+                <td class="text-center">1</td>
+                <td>$10.00</td>
+                <td>$10.00</td>
+                <td>$1.00 <button class="ml-15"><i class="fas fa-times"></i></button></td>
+              </tr>
+              <tr>
+                <th class="text-center" scope="row"><img src="img/1.png"></th>
+                <td>Mark Otto m Ipsum<span class="pl-2"><i class="fas fa-check check-bor"></i></span></td>
+                <td class="text-center">1</td>
+                <td>$10.00</td>
+                <td>$10.00</td>
+                <td>$1.00 <button class="ml-15"><i class="fas fa-times"></i></button></td>
+              </tr>
+              <tr>
+                <th class="text-center" scope="row"><img src="img/1.png"></th>
+                <td>Mark Ottem Ipsum<span class="pl-2"><i class="fas fa-check check-bor"></i></span></td>
+                <td class="text-center">1</td>
+                <td>$10.00</td>
+                <td>$10.00</td>
+                <td>$1.00 <button class="ml-15"><i class="fas fa-times"></i></button></td>
+              </tr>
+              <tr>
+                <th class="text-center" scope="row"><img src="img/1.png"></th>
+                <td>Mark Ottoo Lor<span class="pl-2"><i class="fas fa-check check-bor"></i></span></td>
+                <td class="text-center">1</td>
+                <td>$10.00</td>
+                <td>$10.00</td>
+                <td>$1.00 <button class="ml-15"><i class="fas fa-times"></i></button></td>
+              </tr>
+              <tr style="position: relative;">
+                <th scope="row" style="position: absolute;left: 30px;"><button><i class="fas fa-plus plus-extra"></i> Add Row </button> </th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              
+            </tbody>
           </table>
-          <button class="ml-4 mb-2" type="button" data-toggle="modal" data-target="#exampleModal"><i class="fas fa-plus plus-extra"></i> Add Row </button> 
-    </div>
-                    <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title text-right" id="exampleModalLabel"></h5>
-        
-      </div>
-      <div class="modal-body">
-  
-        <form  id="inputForm">
-            <div class="product">
-              <p id="error" style="color: red"></p>
-              <input type="text" class="form-control" placeholder="Product" id="product_name" required>
-                <p class="mt-2 btn btn-info arrow-down">Next</p>
-                <button type="button" class="mt-2 btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
-            </div>
-
-            <div class="quantity inactive">
-                <input type="text" class="form-control" placeholder="Ordered Quantity" id="quantity">
-                <span class="mt-2 btn btn-info arrow-down">Next</span>
-                <button type="button" class="mt-2 btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
-            </div>
-
-            <div class="price inactive">
-                <input type="text" class="form-control" placeholder="Price" id="price">
-                <span class="btn btn-info arrow-down">Next</span>
-                <button type="button" class="mt-2 btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
-            </div>
-
-             <div class="line-total inactive">
-                <input type="text" class="form-control" placeholder="Line Total" id="line_total">
-                <span class="btn btn-info arrow-down">Next</span>
-                <button type="button" class="mt-2 btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
-            </div>
-
-            <div class="cash-back inactive">
-               <input type="text" class="form-control" placeholder="Website Cash Back %" id="cash_back">
-               <button type="submit" class="mt-2 btn btn-success arrow-down">Submit</button>
-               <button type="button" class="mt-2 btn btn-danger" data-dismiss="modal" aria-label="Close">Close</button>
-            </div>
-       </form>
-      </div>
-      <div class="modal-footer"></div>
-    </div>
-  </div>
-</div>
-
-    <!-- # Subtotal # -->
+        </div>
+        </div>
+        <!-- End Main Table -->
+        <!-- # Subtotal # -->
         <div class="table-total">
           <div class="total-item">
             <ul class="list-group">
@@ -188,7 +196,7 @@
         <div class="table-total table-button">
           <div class="table-button-item">
             <button>Cancel</button>
-            <button onclick="deleteUsers()">Delete</button>
+            <button>Delete</button>
             <button>Save</button>
             <button>Accept</button>
           </div>
@@ -199,7 +207,7 @@
 
      <!-- ##################### Advertise #################### -->
      <div class="col-md-5">
-   <div class="container">
+<div class="container">
        <div class="advertise">
          <p class="text-center">Can't see images? <a href="">Click here</a></p>
        </div>
@@ -229,7 +237,7 @@
          <h4>You'll be receiving your Belk Bucks in a separate email.</h4>
        </div>
      </div>  
-  </div>
+</div>
      <!-- End Advertise -->
     </div>
   </div>
@@ -248,131 +256,6 @@
       window.FontAwesomeConfig = { autoReplaceSvg: false }
 </script>
 <script type="text/javascript" src="js/all.min.js"></script>
-    <script>
+</body>
 
- function animatForm () {
-          const arrows = document.querySelectorAll('.arrow-down');
-          var product_name = document.getElementById('product_name');
-          var quantity = document.getElementById('quantity');
-          var price = document.getElementById('price');
-          var line_total = document.getElementById('line_total');
-          var cash_back = document.getElementById('cash_back');
-          arrows.forEach(arrow => {
-            arrow.addEventListener('click', () => {
-                const input = arrow.previousElementSibling;
-                const parent = arrow.parentElement;
-                const nextForm = parent.nextElementSibling;
-
-                if(product_name){
-                    nextSlide(parent, nextForm);
-                }else if(quantity){
-                    nextSlide(parent, nextForm);
-                }else if(price){
-                    nextSlide(parent, nextForm);
-                }else if(input.line_total){
-                    nextSlide(parent, nextForm);    
-                }else if(input.cash_back){
-                    nextSlide(parent, nextForm);
-                }else{
-                  
-                }
-            });
-          });
-       }
-       
-       
-      
-       function nextSlide(parent, nextForm){
-           parent.classList.add('inactive');
-           parent.classList.remove('active');
-           nextForm.classList.add('active');
-       }
-
-     
-    
-       animatForm();
-
-
-
-     
-    var storedUsers = []; 
-    var user_id = 0; 
-    var i = 0;
-  
-    function deleteUsers(i) {
-    var storedUsers = JSON.parse(localStorage.getItem('userData'));
-    storedUsers.splice(i,1);
-    if(storedUsers.length==0) 
-      $('table').remove();
-    window.localStorage.setItem('userData',JSON.stringify(storedUsers));
-    window.location.reload();
-    }
-
-
-    $(document).ready(function() {
-    if (localStorage.getItem("userData") !== null) {
-      storedUsers = JSON.parse(localStorage.getItem("userData"));
-    
-      if (localStorage.getItem("userData")) {
-        $('table').append('<tr><th>Image</th><th> Product Name </th><th> Quantity </th><th> Price </th><th> Line Total </th><th> Website Cash Back % </th><th> Delete </th></tr>');
-      }
-
-      for(i=0; i<storedUsers.length; i++){
-        
-        $('table').append('<tr><td>' + '<img src="img/1.png">' + '</td><td>' + storedUsers[i]['product_name'] + ' <i class="fas fa-check check-bor ml-1"></i>'+'</td><td>' + storedUsers[i]['quantity'] + '</td><td>' +'$'+ storedUsers[i]['price'] + '</td> <td>' +'$' + storedUsers[i]['line_total'] + '</td><td>' +'$' + storedUsers[i]['cash_back']  +'%' +'</td><td> <button type=\"submit\"  onclick=\"deleteUsers(' + i + ')\"><i class="fas fa-times"></i></button></td> </tr>');    
-      }
-      
-
-        
-
-    }
-    });
-
-
-  $('#inputForm').on('submit', function (e) {
-    e.preventDefault();
-    
-    if (localStorage.getItem("userData") !== null) {
-      storedUsers = JSON.parse(localStorage.getItem("userData"));
-    }
-
-    if (localStorage.getItem("userData") === null){
-      $('table').append('<tr><th> Name </th><th> Quantity </th><th> Salary </th></tr>');
-    }
-          
-    var product_name = $('#inputForm').find("#product_name").val();
-
-        var quantity = $('#inputForm').find("#quantity").val();
-
-        var price = $('#inputForm').find("#price").val();
-
-        var line_total = $('#inputForm').find("#line_total").val();
-
-        var cash_back = $('#inputForm').find("#cash_back").val();
-
-    const user = {
-        product_name: product_name,
-        quantity: quantity,
-        price: price,
-        line_total: line_total,
-        cash_back: cash_back,
-    }
-      
-    storedUsers.push(user);
-
-    window.localStorage.setItem('userData',JSON.stringify(storedUsers));
-
-    $(this).closest('form').find("#product_name").val("");
-    $(this).closest('form').find("#quantity").val("");
-    $(this).closest('form').find("#price").val("");
-    $(this).closest('form').find("#line_total").val("");
-    $(this).closest('form').find("#cash_back").val("");
-    window.location.reload();
-
-    });
-
-    </script>
-
-
-  </body>
 </html>

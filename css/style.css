@@ -128,6 +128,27 @@
     padding: 2px;
   }
 
+
+  
+        .inactive {
+            display: none;
+        }
+        .active {
+            display: block;
+        }
+        .arrow-down {
+            cursor: pointer;
+        }
+
+        .table-style {
+           border: 1px solid #d1d1d1;
+        }
+
+        .table-style tr:first-child {
+          background: #8C378C;
+          color: #fff;
+        }
+
 /*Advertise*/
 .advertise {
   padding-top: 35px;
@@ -219,3 +240,10 @@
 }
 
 }
+
+
+
+
+
+
+
